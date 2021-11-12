@@ -18,6 +18,3 @@ function time() {
 }
 
 setInterval(time, 1000);
-
-const element = document.querySelector('input');
-element.click();
