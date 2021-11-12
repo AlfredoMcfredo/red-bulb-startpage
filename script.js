@@ -18,3 +18,6 @@ function time() {
 }
 
 setInterval(time, 1000);
+
+const element = document.querySelector('form');
+element.click(1);
