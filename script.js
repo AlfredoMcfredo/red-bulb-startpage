@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(){
-  console.log('ready!')
+  console.log('ready!');
   $("input").trigger("select");
 });
 
