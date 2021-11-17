@@ -1,3 +1,8 @@
+document.addEventListener("DOMContentLoaded", function(){
+  console.log('ready!')
+  $("input").trigger("select");
+});
+
 var span = document.getElementById('time');
 
 function time() {
