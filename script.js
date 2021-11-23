@@ -1,8 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){
   console.log('ready!');
-  setTimeout(function() {
-    $("input").trigger("select");
-  }, 1000);
+  $("input").trigger("select");
 });
 
 var span = document.getElementById('time');
